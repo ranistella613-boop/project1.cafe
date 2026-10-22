@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar h2, li, ul{
+    display: inline-block;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.navbar li, ul{
+    font-size: 35px;
+}
+
+.navbar h2{
+margin-left: 200px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.navbar li{
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar ul{
+    margin-left: 50%;
+}
+
+li:hover{
+ background-color: rgb(112, 97, 97);
+ color: black;
+}
+
+.img1{
+    opacity: 0.7;
+    position: relative;
+    z-index: 1;
+    display: inline;
+    width: 1970px;
+    top: 15px;
+}
+
+.welcome{
+    position: relative;
+    z-index: 2;
+    top: -750px;
+    color: #E5E4E2;
+    border: 0px solid rgb(94, 36, 36);
+    display: inline-block;
+    box-shadow: 12px 13px 15px rgb(94, 36, 36);
+}
+
+.emoji{
+ position: relative;
+    z-index: 3;
+    margin-left: 3=280px;
+    top: -680px;   
+    color: antiquewhite;
+}
+
+.br1,
+.br2,
+.br3{
+    height: 80px;
+    background-color: antiquewhite;
+    box-shadow:  #E6E0F0 2px 10px 2px;
+    position: relative;
+    z-index: 1;
+}
+
+.box1{
+    height: 1170px;
+}
+
+.box2{
+    text-align: center;
+    margin-right: 30%;
+}
+
+.welcome{
+    font-size: 200px;
+} 
+
+.emoji{
+    font-size: 100px;
+}
+
+.box3{
+    height: 1170px;
+    margin-top: -370px;
+}
+
+.box3 h2{
+    padding: 40px;
+    font-size: 70px;
+}
+
+.img2,
+.img3,
+.img4{
+    width: 600px;
+    height: 650px;
+}
+
+.item1,
+.item2,
+.item3{
+    border: 2px black dotted;
+    display: inline-block;
+    margin-left: 50px;
+    height: 900px;
+    background-color: white;
+    box-shadow: 12px 13px 15px #E6E0F0;
+}
+
+.item1 .it1, .btn{
+    font-size: 45px;
+}
+
+.item2 .it1, .btn{
+    font-size: 45px;
+}
+.item3 .it1, .btn{
+    font-size: 45px;
+}
+
+.it1{
+    color: rgb(94, 36, 36);
+}
+
+.btn
+{
+  margin-top: 40px;
+  padding: 10px;
+background-color: rgb(94, 36, 36);
+color: wheat;
+}
+
+.box4{
+    height: 270px;
+}
+
+.pp{
+    font-size: 80px;
+    text-align: center;
+    padding: 50px;
+    color: wheat;    
+}
+
+.welcome, .emoji{
+    opacity: 0;
+    animation: show 2s ease 5s forwards;
+}
+
+@keyframes show{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
